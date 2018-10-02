@@ -1,0 +1,48 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.vietinterview.gateway",
+      "nativeLanguage": "vi"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "gateway",
+    "baseName": "gwAutohunt",
+    "packageName": "vn.vietinterview.gateway",
+    "packageFolder": "vn/vietinterview/gateway",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "N2M4YWI5MWU1ODYyMmVlMTZmNTU5YmEyNWIzNWMyMWU1MzFlYzRiMDVlZjAwMGUyY2ZlM2NiYWI5ZWNlOGJkY2RkMGNkOWUzNTNlYmMyMTcxODhjYTI0YTZjNmZmM2M0ZjUxMDVmOTI1ZGE3ZWZlYmNhODNkYTUyNzU5MTNjNDk=",
+    "clientFramework": "angularX",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "vi",
+    "languages": [
+      "vi",
+      "en"
+    ]
+  }
+}

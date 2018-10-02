@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "vn.vietinterview.svc.collaborator"
+    },
+    "jhipsterVersion": "5.3.4",
+    "applicationType": "microservice",
+    "baseName": "svcCollaborator",
+    "packageName": "vn.vietinterview.svc.collaborator",
+    "packageFolder": "vn/vietinterview/svc/collaborator",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "YzgwYTI2NmNiOGEzZTFlNmYwMmY4ZWExZTc2ZjE2ODc4MzI2YzEzMjU0ZGIzNGM3YmFhMjM0ZjQ5NmM2YjdmMjNhYTgwYzBhNDkwYWUxNzZmZWQ4YTkwNmVlMWM0ZDg5NzRlZDFmZmZkZjQ5Y2I2NTExMTI4ZDRmY2NjODhiZjM=",
+    "enableTranslation": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-docker",
+        "version": "2.5.0"
+      },
+      {
+        "name": "generator-jhipster-swagger-cli",
+        "version": "3.0.1"
+      }
+    ],
+    "clientPackageManager": "npm",
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
